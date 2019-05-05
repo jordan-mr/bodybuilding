@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Tajawal', sans-serif;
+}
+#main-nav-container{
+    width: 100%;
+    height:auto;
+    background-color:rgb(41, 41, 41);
+    text-align: center;
+}
+#main-nav{
+    width:95%;
+    margin: 0 auto;
+}
+
+#main-nav li{
+    padding:5px 0 12px 0;
+    display:inline-block;
+    list-style:none;
+    margin:0 1vw;
+    color:#fff;
+
+}
+#main-nav li a{
+    text-decoration: none;
+    font-size:1.1em;
+    color:#fff;
+}
+.logo-btn{
+    background-color:rgb(80, 150, 190);
+    min-width:80px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+#search{
+ border: #fff solid 1px;
+ border-radius: 2px;
+}
+#main-nav input{
+    height:30px;
+    width:15vw;
+    border: #fff 0px;
+    padding-left: 15px;
+    float: left;
+
+}
+#main-nav button{
+
+    height:30px;
+    width:30px;
+    border: #fff 0px;
+
+}
+
+/*responsive under 600px nav below */
+.mini-nav-container{
+    width: 100%;
+    height:auto;
+    background-color:rgb(41, 41, 41);
+    text-align: center;
+}
+#mini-nav{
+    width:100%;
+    padding:10px 0;
+}
+#mini-nav li{
+
+    display:inline;
+}
+#side-menu-btn{
+    background: none;
+    color:#fff;
+    border: none;
+    float:left;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:5px;
+}
+.mini-logo-btn{
+    background-color:rgb(80, 150, 190);
+    min-width:80px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding:10px 20px;
+    
+}
+.mini-logo-btn a{
+    text-decoration:none;
+    color:#fff;
+}
+.right-icons{
+    float:right;
+    margin-right:20px;
+    color:#fff;
+    margin-top:5px;
+}
+#mini-search form{
+    border:none;
+    width:98%;
+    margin:auto;
+}
+#mini-search input{
+    width:80%;
+    border: #fff 0px;
+    height:35px;
+    margin:8px 0;
+    font-size:1em;
+    padding-left:20px;
+
+
+}
+#mini-search button{
+    width:40px;
+    border: #fff 0px;
+    height:35px;
+    margin:8px 0;
+    font-size: 1em;
+
+    
+}
+@media only screen and (min-width: 1000px){
+    .mini-nav-container{
+        display:none;
+    }
+}
+
+
+/* main content below */
+/*tags below*/
+#help-nav{
+    border-bottom: 1px solid #aaa;
+    padding-top:5px;
+}
+#help-nav li{
+    width:33%;
+    height:25px;
+    display: inline-block;
+    text-align: center;
+    font-size:0.9em;
+}
+#help-nav li b{
+    color: rgb(120, 203, 236); 
+
+}
+
+article{
+    width:80%;
+    margin:auto;
+}
+
+#tags-container{
+    margin-top:60px;
+    margin-bottom:10px;
+}
+.tag{
+  color:rgb(53, 183, 235);  
+}
+#tags-container p{
+    display:inline;
+}
+
+/*title - header below */
+h1{
+    font-size:2.6em;
+    color:rgb(54, 54, 54); 
+}
+h3{
+    margin: 8px 0;
+    color: rgb(160, 158, 158); 
+}
+
+#main-section{
+    float:left;
+    width:75%;
+    margin-top:20px;
+}
+#m-img{
+    width:95%;
+}
+#p-img{
+    border-radius: 90px;
+    width:60px;
+    margin-left:80px;
+    margin-top:20px;
+    display: block;
+    
+}
+#author #p-detail{
+    display: block;
+    letter-spacing:1px;
+    margin-left: 150px;
+    margin-top:-55px;
+    font-weight: 10;
+}
+#main-content{
+    margin:20px;
+    font-size:1.2em
+}
+/* side bar */
+#side-bar{
+    width:25%;
+    float: right;
+}
+#side-bar #full{
+ margin-top:60px;
+
+}
+#side-bar #full li{
+    list-style: none;
+    margin:4px 0;
+    border-bottom: 1px solid #aaa;
+}
+#side-bar #full li a{
+    text-decoration: none;
+    color:rgb(68, 68, 68);
+    font-size:1.1em;
+    margin-left:20px;
+}
+#side-bar #full li a b{
+    font-size:1.4em;
+    margin-left:-10px;
+}
+#sub-list li{
+    margin: 0;
+    padding:0;
+    padding-left:20px;
+    border:none !important;
+}
+
+#full a:hover{
+    color:#121212 !important;
+}
+
+/*MOBILE */
+
+@media only screen and (max-width:1000px){
+    #main-nav-container{
+        display:none;
+    }
+    #help-nav{
+        margin: auto;
+    }
+    #help-nav li{
+        width:auto !important;
+        height:auto !important;
+        display: block !important;
+        text-align: center;
+        font-size:0.9em;
+    }
+
+    #main-section{
+        float:none !important;
+        width:95% !important;
+        margin-top:20px;
+    }
+
+    #side-bar{
+        float:none !important;
+        width:95% !important;
+        margin-top:20px;
+    }
+}
